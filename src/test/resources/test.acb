@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colorBook>
+	<bookName>Name</bookName>
+	<colorPage>
+		<pageColor>
+			<RGB8>
+				<red>255</red>
+				<green>255</green>
+				<blue>255</blue>
+			</RGB8>
+		</pageColor>
+		<colorEntry><colorName>Color 1</colorName><RGB8><red>1</red><green>2</green><blue>3</blue></RGB8></colorEntry>
+		<colorEntry><colorName>Color 2</colorName><RGB8><red>4</red><green>6</green><blue>7</blue></RGB8></colorEntry>
+		<colorEntry><colorName>Color 3</colorName><RGB8><red>8</red><green>9</green><blue>10</blue></RGB8></colorEntry>
+	</colorPage>
+</colorBook>

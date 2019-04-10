@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colorBook>
+	<bookName>Little Greeny</bookName>
+	<colorPage>
+		<pageColor>
+			<RGB8>
+				<red>255</red>
+				<green>255</green>
+				<blue>255</blue>
+			</RGB8>
+		</pageColor>
+		<colorEntry><colorName>LG222 Loft White</colorName><RGB8><red>253</red><green>253</green><blue>250</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG229 Wood Ash</colorName><RGB8><red>238</red><green>234</green><blue>225</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG106 Gauze</colorName><RGB8><red>238</red><green>240</green><blue>241</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG113 French Grey</colorName><RGB8><red>200</red><green>197</green><blue>183</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG117 Lead Colour</colorName><RGB8><red>150</red><green>145</green><blue>131</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG114 Mid Lead Colour</colorName><RGB8><red>140</red><green>140</green><blue>140</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG112 Mambo</colorName><RGB8><red>71</red><green>67</green><blue>131</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG227 Scree</colorName><RGB8><red>89</red><green>90</green><blue>87</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG129 Shirting</colorName><RGB8><red>248</red><green>248</green><blue>248</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG105 Slaked Lime</colorName><RGB8><red>247</red><green>243</green><blue>234</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG109 Welcome</colorName><RGB8><red>227</red><green>220</green><blue>216</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG4 Mirage Ii</colorName><RGB8><red>209</red><green>192</green><blue>178</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG244 Dash Of Soot</colorName><RGB8><red>201</red><green>192</green><blue>186</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG250 Arquerite</colorName><RGB8><red>141</red><green>140</green><blue>146</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG215 Knightsbridge</colorName><RGB8><red>101</red><green>86</green><blue>78</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG144 Attic Ii</colorName><RGB8><red>90</red><green>82</green><blue>71</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG234 Grey Moss</colorName><RGB8><red>100</red><green>93</green><blue>81</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG33 Linen Wash</colorName><RGB8><red>248</red><green>242</green><blue>222</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG130 Joanna</colorName><RGB8><red>234</red><green>225</green><blue>192</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG77 Portland Stone</colorName><RGB8><red>201</red><green>197</green><blue>168</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG142 Mushroom</colorName><RGB8><red>211</red><green>195</green><blue>174</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG143 Rolling Fog</colorName><RGB8><red>209</red><green>200</green><blue>178</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG31 Roman Plaster</colorName><RGB8><red>191</red><green>176</green><blue>143</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG40 Silt</colorName><RGB8><red>133</red><green>126</green><blue>108</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG1 China Clay</colorName><RGB8><red>247</red><green>237</green><blue>224</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG25 Hollyhock</colorName><RGB8><red>243</red><green>238</green><blue>232</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG26 Julie S Dream</colorName><RGB8><red>241</red><green>231</green><blue>221</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG34 Stone Pale Warm</colorName><RGB8><red>243</red><green>213</green><blue>175</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG38 Hammock</colorName><RGB8><red>221</red><green>200</green><blue>172</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG39 Clay</colorName><RGB8><red>212</red><green>197</green><blue>156</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG64 Bath Stone</colorName><RGB8><red>205</red><green>182</green><blue>132</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG36 Stone Dark Warm</colorName><RGB8><red>162</red><green>133</green><blue>85</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG49 First Light</colorName><RGB8><red>252</red><green>246</green><blue>216</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG74 White Lead</colorName><RGB8><red>249</red><green>248</green><blue>227</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG37 Stock</colorName><RGB8><red>248</red><green>244</green><blue>227</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG65 Stone Pale Cool</colorName><RGB8><red>226</red><green>210</green><blue>155</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG66 Stone Mid Cool</colorName><RGB8><red>217</red><green>207</green><blue>171</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG265 Mortlake Yellow</colorName><RGB8><red>222</red><green>184</green><blue>121</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG46 Yellow Pink</colorName><RGB8><red>208</red><green>169</green><blue>70</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG9 Rusling</colorName><RGB8><red>255</red><green>240</green><blue>224</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG139 Chemise</colorName><RGB8><red>245</red><green>232</green><blue>230</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG220 Pink Slip</colorName><RGB8><red>236</red><green>210</green><blue>203</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG213 Dorchester Pink</colorName><RGB8><red>220</red><green>198</green><blue>186</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG3 Light Peachblossom</colorName><RGB8><red>198</red><green>178</green><blue>167</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG267 Blush</colorName><RGB8><red>175</red><green>138</green><blue>130</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG6 Ashes Of Roses</colorName><RGB8><red>148</red><green>94</green><blue>92</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG7 Adventurer</colorName><RGB8><red>93</red><green>58</green><blue>64</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG98 Echo</colorName><RGB8><red>232</red><green>241</green><blue>238</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG217 Drizzle</colorName><RGB8><red>216</red><green>227</green><blue>210</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG99 Salix</colorName><RGB8><red>194</red><green>210</green><blue>192</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG218 Mono</colorName><RGB8><red>195</red><green>194</green><blue>185</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG101 Celestial Blue</colorName><RGB8><red>164</red><green>180</green><blue>175</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG107 Bone China Blue</colorName><RGB8><red>161</red><green>167</green><blue>164</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG115 Juniper Ash</colorName><RGB8><red>82</red><green>89</green><blue>105</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG208 Hicks Blue</colorName><RGB8><red>8</red><green>44</green><blue>55</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG87 Acorn</colorName><RGB8><red>224</red><green>227</green><blue>196</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG219 Mirror</colorName><RGB8><red>229</red><green>228</green><blue>208</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG199 Phthalo Green</colorName><RGB8><red>116</red><green>200</green><blue>76</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG91 Pea Green</colorName><RGB8><red>169</red><green>192</green><blue>147</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG138 Aquamarine</colorName><RGB8><red>168</red><green>187</green><blue>160</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG198 Aquamarine Deep</colorName><RGB8><red>130</red><green>160</green><blue>138</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG263 Livid</colorName><RGB8><red>110</red><green>125</green><blue>120</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG41 Whitening</colorName><RGB8><red>244</red><green>242</green><blue>229</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG134 Woodbine</colorName><RGB8><red>228</red><green>210</green><blue>146</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG69 Lemon Tree</colorName><RGB8><red>235</red><green>223</green><blue>140</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG83 Olive Oil</colorName><RGB8><red>219</red><green>215</green><blue>167</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG85 Kitchen Green</colorName><RGB8><red>201</red><green>203</green><blue>154</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG78 Tracery Ii</colorName><RGB8><red>183</red><green>183</green><blue>159</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG79 Normandy Grey</colorName><RGB8><red>160</red><green>160</green><blue>125</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG80 Sage Green</colorName><RGB8><red>119</red><green>129</green><blue>92</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG135 Sunlight</colorName><RGB8><red>223</red><green>199</green><blue>116</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG63 Oak Apple</colorName><RGB8><red>205</red><green>193</green><blue>133</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG137 Apple</colorName><RGB8><red>203</red><green>198</green><blue>135</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG70 Pale Lime</colorName><RGB8><red>197</red><green>201</green><blue>81</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG84 Boxington</colorName><RGB8><red>168</red><green>175</green><blue>97</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG71 Citrine</colorName><RGB8><red>119</red><green>127</green><blue>45</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG72 Olive Colour</colorName><RGB8><red>66</red><green>67</green><blue>31</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG47 Mister David</colorName><RGB8><red>222</red><green>173</green><blue>20</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG148 Carys</colorName><RGB8><red>255</red><green>229</green><blue>123</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG196 Trumpet</colorName><RGB8><red>251</red><green>230</green><blue>1</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG199 Phthalo Green</colorName><RGB8><red>116</red><green>200</green><blue>76</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG92 Green Verditer</colorName><RGB8><red>106</red><green>197</green><blue>156</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG94 Canton</colorName><RGB8><red>35</red><green>109</green><blue>111</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG95 Marine Blue</colorName><RGB8><red>3</red><green>65</green><blue>78</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG248 Delicate Blue</colorName><RGB8><red>220</red><green>238</green><blue>242</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG203 Brighton</colorName><RGB8><red>191</red><green>213</green><blue>203</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG103 Sky Blue</colorName><RGB8><red>173</red><green>212</green><blue>222</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG206 Tivoli</colorName><RGB8><red>92</red><green>142</green><blue>169</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG104 Blue Verditer</colorName><RGB8><red>101</red><green>154</green><blue>178</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG260 Air Force Blue</colorName><RGB8><red>84</red><green>135</green><blue>152</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG256 Mazarine</colorName><RGB8><red>36</red><green>85</green><blue>128</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG207 Deep Space Blue</colorName><RGB8><red>0</red><green>59</green><blue>89</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG249 Pale Wedgwood</colorName><RGB8><red>182</red><green>204</green><blue>218</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG108 James</colorName><RGB8><red>133</red><green>151</green><blue>163</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG276 Grey Stone</colorName><RGB8><red>138</red><green>160</green><blue>173</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG112 Mambo</colorName><RGB8><red>71</red><green>67</green><blue>131</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG251 Woad</colorName><RGB8><red>68</red><green>99</green><blue>130</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG255 Smalt</colorName><RGB8><red>40</red><green>70</green><blue>124</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG116 Thai Sapphire</colorName><RGB8><red>18</red><green>4</green><blue>42</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG266 Horstense</colorName><RGB8><red>213</red><green>203</green><blue>214</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG274 Confetti</colorName><RGB8><red>233</red><green>207</green><blue>206</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG275 Hellebore</colorName><RGB8><red>200</red><green>165</green><blue>163</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG189 Carmine</colorName><RGB8><red>192</red><green>112</green><blue>125</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG191 Leather</colorName><RGB8><red>204</red><green>56</green><blue>82</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG13 Mischief</colorName><RGB8><red>174</red><green>56</green><blue>93</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG192 Theatre Red</colorName><RGB8><red>113</red><green>19</green><blue>36</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG14 Baked Cherry</colorName><RGB8><red>97</red><green>17</green><blue>23</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG209 Marigold</colorName><RGB8><red>240</red><green>132</green><blue>31</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG21 Orange Aurora</colorName><RGB8><red>227</red><green>99</green><blue>75</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG24 Heat</colorName><RGB8><red>159</red><green>60</green><blue>25</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG140 Tuscan Red</colorName><RGB8><red>135</red><green>69</green><blue>53</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG16 Drummond</colorName><RGB8><red>143</red><green>54</green><blue>38</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG190 Atomic Red</colorName><RGB8><red>189</red><green>37</green><blue>32</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG279 Cape Red</colorName><RGB8><red>166</red><green>57</green><blue>62</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG15 Bronze Red</colorName><RGB8><red>108</red><green>35</green><blue>34</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG277 Cordoba</colorName><RGB8><red>73</red><green>59</green><blue>59</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG56 Invisible Green</colorName><RGB8><red>46</red><green>43</green><blue>20</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG216 Obsidian Green</colorName><RGB8><red>19</red><green>32</green><blue>25</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG257 Royal Navy</colorName><RGB8><red>41</red><green>68</green><blue>87</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG252 Dock Blue</colorName><RGB8><red>47</red><green>55</green><blue>66</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG221 Basalt</colorName><RGB8><red>12</red><green>27</green><blue>36</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG228 Lamp Black</colorName><RGB8><red>46</red><green>45</green><blue>46</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG119 Jack Black</colorName><RGB8><red>4</red><green>14</green><blue>15</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG161 French Grey Pale</colorName><RGB8><red>231</red><green>231</green><blue>219</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG162 French Grey Mid</colorName><RGB8><red>214</red><green>214</green><blue>202</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG113 French Grey</colorName><RGB8><red>200</red><green>197</green><blue>183</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG163 French Grey Dark</colorName><RGB8><red>180</red><green>177</green><blue>160</blue></RGB8></colorEntry>
+		<colorEntry><colorName>Little Greene LG282 Aquamarine Pale</colorName><RGB8><red>233</red><green>244</green><blue>237</blue></RGB8></colorEntry>
+		<colorEntry><colorName>Little Greene LG283 Aquamarine Light</colorName><RGB8><red>219</red><green>233</green><blue>223</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG284 Aquamarine Mid</colorName><RGB8><red>198</red><green>214</green><blue>202</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG138 Aquamarine</colorName><RGB8><red>168</red><green>187</green><blue>160</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG105 Slaked Lime</colorName><RGB8><red>247</red><green>243</green><blue>234</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG149 Slaked Lime Mid</colorName><RGB8><red>231</red><green>222</green><blue>205</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG150 Slaked Lime Deep</colorName><RGB8><red>210</red><green>199</green><blue>174</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG151 Slaked Lime Dark</colorName><RGB8><red>189</red><green>178</green><blue>154</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG167 Pearl Colour Pale</colorName><RGB8><red>230</red><green>235</green><blue>225</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG168 Pearl Colour Mid</colorName><RGB8><red>221</red><green>227</green><blue>214</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG100 Pearl Colour</colorName><RGB8><red>212</red><green>218</green><blue>204</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG169 Pearl Colour Dark</colorName><RGB8><red>190</red><green>197</green><blue>184</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG155 Portland Stone Pale</colorName><RGB8><red>233</red><green>230</green><blue>213</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG77 Portland Stone</colorName><RGB8><red>201</red><green>197</green><blue>168</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG156 Portland Stone Deep</colorName><RGB8><red>186</red><green>180</green><blue>146</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG157 Portland Stone Dark</colorName><RGB8><red>162</red><green>156</green><blue>124</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG182 Bone China Blue Pale</colorName><RGB8><red>226</red><green>230</green><blue>226</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG183 Bone China Blue Mid</colorName><RGB8><red>208</red><green>212</green><blue>208</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG184 Bone China Blue Deep</colorName><RGB8><red>176</red><green>181</green><blue>178</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG107 Bone China Blue</colorName><RGB8><red>161</red><green>167</green><blue>164</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG152 Clay Pale</colorName><RGB8><red>238</red><green>232</green><blue>216</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG153 Clay Mid</colorName><RGB8><red>231</red><green>221</green><blue>199</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG154 Clay Deep</colorName><RGB8><red>223</red><green>211</green><blue>180</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG39 Clay</colorName><RGB8><red>212</red><green>197</green><blue>156</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG106 Gauze</colorName><RGB8><red>238</red><green>240</green><blue>241</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG164 Gauze Mid</colorName><RGB8><red>228</red><green>230</green><blue>232</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG165 Gauze Deep</colorName><RGB8><red>210</red><green>214</green><blue>217</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG166 Gauze Dark</colorName><RGB8><red>199</red><green>204</green><blue>207</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG158 Rolling Fog Pale</colorName><RGB8><red>238</red><green>232</green><blue>215</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG159 Rolling Fog Mid</colorName><RGB8><red>219</red><green>213</green><blue>196</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG143 Rolling Fog</colorName><RGB8><red>209</red><green>200</green><blue>178</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG160 Rolling Fog Dark</colorName><RGB8><red>177</red><green>164</green><blue>138</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG179 Welcome Pale</colorName><RGB8><red>234</red><green>229</green><blue>227</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG109 Welcome</colorName><RGB8><red>227</red><green>220</green><blue>216</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG180 Welcome Deep</colorName><RGB8><red>205</red><green>198</green><blue>195</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG181 Welcome Dark</colorName><RGB8><red>186</red><green>176</green><blue>176</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG37 Stock</colorName><RGB8><red>248</red><green>244</green><blue>227</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG173 Stock Mid</colorName><RGB8><red>239</red><green>228</green><blue>201</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG174 Stock Deep</colorName><RGB8><red>233</red><green>221</green><blue>188</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG175 Stock Dark</colorName><RGB8><red>224</red><green>206</green><blue>157</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG1 China Clay</colorName><RGB8><red>247</red><green>237</green><blue>224</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG176 China Clay Mid</colorName><RGB8><red>236</red><green>217</green><blue>203</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG177 China Clay Deep</colorName><RGB8><red>218</red><green>194</green><blue>180</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG178 China Clay Dark</colorName><RGB8><red>203</red><green>177</green><blue>162</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG74 White Lead</colorName><RGB8><red>249</red><green>248</green><blue>227</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG170 White Lead Mid</colorName><RGB8><red>245</red><green>241</green><blue>206</blue></RGB8></colorEntry>
+        <colorEntry><colorName>LG171 White Lead Deep</colorName><RGB8><red>240</red><green>232</green><blue>185</blue></RGB8></colorEntry>
+        <colorEntry><colorName>LG172 White Lead Dark</colorName><RGB8><red>234</red><green>223</green><blue>157</blue></RGB8></colorEntry>
+        <colorEntry><colorName>Little Greene LG285 Dorchester Pink Pale</colorName><RGB8><red>248</red><green>243</green><blue>240</blue></RGB8></colorEntry>
+        <colorEntry><colorName>LG286 Dorchester Pink Mid</colorName><RGB8><red>235</red><green>229</green><blue>229</blue></RGB8></colorEntry>
+        <colorEntry><colorName>Little Greene LG287 Dorchester Pink Deep</colorName><RGB8><red>228</red><green>219</green><blue>218</blue></RGB8></colorEntry>
+        <colorEntry><colorName>LG213 Dorchester Pink</colorName><RGB8><red>220</red><green>198</green><blue>186</blue></RGB8></colorEntry>
+	</colorPage>
+</colorBook>
