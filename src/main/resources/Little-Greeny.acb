@@ -136,8 +136,8 @@
 		<colorEntry><colorName>LG162 French Grey Mid</colorName><RGB8><red>214</red><green>214</green><blue>202</blue></RGB8></colorEntry>
 		<colorEntry><colorName>LG113 French Grey</colorName><RGB8><red>200</red><green>197</green><blue>183</blue></RGB8></colorEntry>
 		<colorEntry><colorName>LG163 French Grey Dark</colorName><RGB8><red>180</red><green>177</green><blue>160</blue></RGB8></colorEntry>
-		<colorEntry><colorName>Little Greene LG282 Aquamarine Pale</colorName><RGB8><red>233</red><green>244</green><blue>237</blue></RGB8></colorEntry>
-		<colorEntry><colorName>Little Greene LG283 Aquamarine Light</colorName><RGB8><red>219</red><green>233</green><blue>223</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG282 Aquamarine Pale</colorName><RGB8><red>233</red><green>244</green><blue>237</blue></RGB8></colorEntry>
+		<colorEntry><colorName>LG283 Aquamarine Light</colorName><RGB8><red>219</red><green>233</green><blue>223</blue></RGB8></colorEntry>
 		<colorEntry><colorName>LG284 Aquamarine Mid</colorName><RGB8><red>198</red><green>214</green><blue>202</blue></RGB8></colorEntry>
 		<colorEntry><colorName>LG138 Aquamarine</colorName><RGB8><red>168</red><green>187</green><blue>160</blue></RGB8></colorEntry>
 		<colorEntry><colorName>LG105 Slaked Lime</colorName><RGB8><red>247</red><green>243</green><blue>234</blue></RGB8></colorEntry>
@@ -184,9 +184,9 @@
 		<colorEntry><colorName>LG170 White Lead Mid</colorName><RGB8><red>245</red><green>241</green><blue>206</blue></RGB8></colorEntry>
         <colorEntry><colorName>LG171 White Lead Deep</colorName><RGB8><red>240</red><green>232</green><blue>185</blue></RGB8></colorEntry>
         <colorEntry><colorName>LG172 White Lead Dark</colorName><RGB8><red>234</red><green>223</green><blue>157</blue></RGB8></colorEntry>
-        <colorEntry><colorName>Little Greene LG285 Dorchester Pink Pale</colorName><RGB8><red>248</red><green>243</green><blue>240</blue></RGB8></colorEntry>
+        <colorEntry><colorName>LG285 Dorchester Pink Pale</colorName><RGB8><red>248</red><green>243</green><blue>240</blue></RGB8></colorEntry>
         <colorEntry><colorName>LG286 Dorchester Pink Mid</colorName><RGB8><red>235</red><green>229</green><blue>229</blue></RGB8></colorEntry>
-        <colorEntry><colorName>Little Greene LG287 Dorchester Pink Deep</colorName><RGB8><red>228</red><green>219</green><blue>218</blue></RGB8></colorEntry>
+        <colorEntry><colorName>LG287 Dorchester Pink Deep</colorName><RGB8><red>228</red><green>219</green><blue>218</blue></RGB8></colorEntry>
         <colorEntry><colorName>LG213 Dorchester Pink</colorName><RGB8><red>220</red><green>198</green><blue>186</blue></RGB8></colorEntry>
 	</colorPage>
 </colorBook>
