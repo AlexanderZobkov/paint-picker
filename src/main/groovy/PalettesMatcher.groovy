@@ -12,15 +12,28 @@ class PalettesMatcher {
         def writer = new FileWriter('build/paints-match-report.html')
         def xml = new MarkupBuilder(writer)
 
-        Closure<MarkupBuilder> colorSwatch = { MarkupBuilder builder, NamedColor color, Object ...more ->
+        Closure<MarkupBuilder> colorSwatch = { MarkupBuilder builder, NamedColor color, Object... info ->
 
             String hex = Integer.toHexString(color.color.getRGB()).substring(2)
 
             builder.div (class:'swatch') {
                 div(class:'swatch', style:"background-color: #${hex};", ' ')
-                span("${color.name} ${more.join(' ')}")
+                div {
+                    mkp.yield "${color.name}"
+                    if (info) {
+                        br()
+                        mkp.yield "${info.join(' ')}"
+                    }
+                }
             }
             builder
+        }
+
+        Closure<List<Object>> reportSimilarityInfo = { Float distance ->
+            [
+                    "${(100 * distance.floatValue()/767f).trunc(2)}%",
+                    distance.trunc(2),
+            ]
         }
 
         xml.html() {
@@ -48,7 +61,7 @@ class PalettesMatcher {
                             colorSwatch(xml, color1)
                             div (class:'spacer' , ' ')
                             matcher.findClosestMatch(color1, palette2).each {Tuple2<NamedColor, Float> color2 ->
-                                colorSwatch(xml, color2.first, "${(100 * color2.second.floatValue()/767f).trunc(2)}%", color2.second.trunc(2))
+                                colorSwatch(xml, color2.first, *reportSimilarityInfo(color2.second))
                             }
 
                         }
