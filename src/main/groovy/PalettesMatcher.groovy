@@ -37,7 +37,8 @@ class PalettesMatcher {
         }
 
         xml.html() {
-            style("""
+            head() {
+                style("""
 
     div.swatch {
         width: 150px; height: 150px;
@@ -53,7 +54,8 @@ class PalettesMatcher {
         display: table-cell;
     }
 
-            """)
+                """)
+            }
             body() {
                 div() {
                     palette1.each { NamedColor color1 ->
