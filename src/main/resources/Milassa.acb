@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colorBook>
+    <bookName>Milassa - Ambient</bookName>
+    <colorPage>
+        <pageColor>
+            <RGB8>
+                <red>255</red>
+                <green>255</green>
+                <blue>255</blue>
+            </RGB8>
+        </pageColor>
+        <colorEntry><colorName>AM7 001/1</colorName><RGB8><red>217</red><green>209</green><blue>206</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 001/2</colorName><RGB8><red>242</red><green>232</green><blue>222</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 001</colorName><RGB8><red>255</red><green>253</green><blue>241</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 002/1</colorName><RGB8><red>220</red><green>204</green><blue>181</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 002/2</colorName><RGB8><red>250</red><green>227</green><blue>195</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 002/3</colorName><RGB8><red>219</red><green>207</green><blue>195</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 002/4</colorName><RGB8><red>218</red><green>189</green><blue>159</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 002/5</colorName><RGB8><red>229</red><green>206</green><blue>174</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 002</colorName><RGB8><red>243</red><green>220</green><blue>186</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 003</colorName><RGB8><red>252</red><green>214</green><blue>178</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 004/1</colorName><RGB8><red>212</red><green>167</green><blue>126</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 004/2</colorName><RGB8><red>130</red><green>66</green><blue>41</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 004/3</colorName><RGB8><red>155</red><green>99</green><blue>62</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 004/4</colorName><RGB8><red>194</red><green>158</green><blue>96</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 004/5</colorName><RGB8><red>232</red><green>200</green><blue>143</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 004/6</colorName><RGB8><red>216</red><green>157</green><blue>81</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 004</colorName><RGB8><red>212</red><green>177</green><blue>145</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 005/1</colorName><RGB8><red>60</red><green>90</green><blue>80</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 005/2</colorName><RGB8><red>133</red><green>138</green><blue>108</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 005/3</colorName><RGB8><red>189</red><green>185</green><blue>150</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 005/4</colorName><RGB8><red>133</red><green>117</green><blue>68</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 005/5</colorName><RGB8><red>90</red><green>112</green><blue>99</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 005/6</colorName><RGB8><red>103</red><green>98</green><blue>56</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 005/7</colorName><RGB8><red>123</red><green>113</green><blue>86</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 005</colorName><RGB8><red>51</red><green>54</green><blue>35</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 006/1</colorName><RGB8><red>200</red><green>217</green><blue>211</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 006</colorName><RGB8><red>218</red><green>229</green><blue>215</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 007/1</colorName><RGB8><red>226</red><green>175</green><blue>154</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 007/2</colorName><RGB8><red>234</red><green>156</green><blue>120</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 007/3</colorName><RGB8><red>152</red><green>104</green><blue>100</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 007</colorName><RGB8><red>241</red><green>213</green><blue>201</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 008/1</colorName><RGB8><red>154</red><green>145</green><blue>140</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 008/2</colorName><RGB8><red>98</red><green>99</green><blue>101</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 008</colorName><RGB8><red>184</red><green>183</green><blue>179</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 009/1</colorName><RGB8><red>58</red><green>53</green><blue>50</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 009/2</colorName><RGB8><red>147</red><green>134</green><blue>126</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 009/3</colorName><RGB8><red>79</red><green>65</green><blue>56</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 009/4</colorName><RGB8><red>95</red><green>63</green><blue>40</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 009</colorName><RGB8><red>157</red><green>137</green><blue>130</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 010/1</colorName><RGB8><red>61</red><green>47</green><blue>36</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 010/2</colorName><RGB8><red>155</red><green>135</green><blue>110</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 010/3</colorName><RGB8><red>154</red><green>120</green><blue>92</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 010/4</colorName><RGB8><red>55</red><green>40</green><blue>33</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 010/5</colorName><RGB8><red>96</red><green>70</green><blue>53</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 010</colorName><RGB8><red>116</red><green>95</green><blue>78</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 011/1</colorName><RGB8><red>76</red><green>67</green><blue>58</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 011/2</colorName><RGB8><red>129</red><green>129</green><blue>139</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 011/3</colorName><RGB8><red>20</red><green>23</green><blue>28</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 011</colorName><RGB8><red>91</red><green>81</green><blue>79</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 012/1</colorName><RGB8><red>185</red><green>160</green><blue>138</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 012/2</colorName><RGB8><red>155</red><green>145</green><blue>133</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 012/3</colorName><RGB8><red>189</red><green>175</green><blue>172</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 012/4</colorName><RGB8><red>206</red><green>196</green><blue>187</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 012/5</colorName><RGB8><red>125</red><green>104</green><blue>73</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 014/1</colorName><RGB8><red>216</red><green>146</green><blue>84</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 014/2</colorName><RGB8><red>183</red><green>135</green><blue>87</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 014</colorName><RGB8><red>154</red><green>120</green><blue>75</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 015/1</colorName><RGB8><red>224</red><green>217</green><blue>175</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 015/2</colorName><RGB8><red>1</red><green>47</green><blue>37</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 018/1</colorName><RGB8><red>183</red><green>202</green><blue>180</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 018/2</colorName><RGB8><red>76</red><green>111</green><blue>105</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 018/3</colorName><RGB8><red>133</red><green>165</green><blue>176</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 018/4</colorName><RGB8><red>65</red><green>81</green><blue>104</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 018/5</colorName><RGB8><red>12</red><green>79</green><blue>85</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 018</colorName><RGB8><red>81</red><green>116</green><blue>136</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 020/1</colorName><RGB8><red>185</red><green>108</green><blue>88</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 020/2</colorName><RGB8><red>164</red><green>89</green><blue>84</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 020/3</colorName><RGB8><red>142</red><green>38</green><blue>45</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 020/4</colorName><RGB8><red>92</red><green>39</green><blue>47</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 020</colorName><RGB8><red>87</red><green>41</green><blue>44</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 021/1</colorName><RGB8><red>20</red><green>41</green><blue>62</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 021/2</colorName><RGB8><red>89</red><green>104</green><blue>133</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 021/3</colorName><RGB8><red>9</red><green>41</green><blue>64</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 021/4</colorName><RGB8><red>69</red><green>72</green><blue>113</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 021</colorName><RGB8><red>75</red><green>92</green><blue>108</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 110</colorName><RGB8><red>125</red><green>128</green><blue>133</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 120</colorName><RGB8><red>183</red><green>108</green><blue>76</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 221/1</colorName><RGB8><red>194</red><green>168</green><blue>169</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 221/2</colorName><RGB8><red>190</red><green>153</green><blue>145</blue></RGB8></colorEntry>
+        <colorEntry><colorName>AM7 221</colorName><RGB8><red>134</red><green>105</green><blue>101</blue></RGB8></colorEntry>
+    </colorPage>
+</colorBook>
