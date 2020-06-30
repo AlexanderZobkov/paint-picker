@@ -1,0 +1,14 @@
+# Paint Picker
+
+Home renovation is not easy and very time consuming activity. Choosing the right interior paint color is not easy as well and could be a real nightmare.
+This repository is not about choosing right paint colors or color schemas for your home. 
+This repository could help in finding color code/name in palettes of paint companies that matches the color you choose.
+
+[IMPORTANT]
+--
+Colours and images shown on your display may not represent the true colour. Always use paint testers/samples before commiting whole amount paints.
+--
+
+## Usage
+
+https://github.com/AlexanderZobkov/paint-picker/blob/master/src/main/groovy/PalettesMatcher.groovy[See usage example.]
