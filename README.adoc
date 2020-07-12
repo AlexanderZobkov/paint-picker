@@ -11,4 +11,6 @@ Colours and images shown on your display may not represent the true colour. Alwa
 
 ## Usage
 
-See https://github.com/AlexanderZobkov/paint-picker/blob/master/src/main/groovy/PalettesMatcher.groovy[usage example].
+See
+https://github.com/AlexanderZobkov/paint-picker/blob/master/src/main/groovy/PalettesMatcher.groovy[usage example],
+https://alexanderzobkov.github.io/paint-picker/little-greeny-vs-tikkurila.html[result example].
