@@ -5,7 +5,7 @@ class AutocadColorBookLoaderTest extends Specification {
 
     def "Load color book with valid data"() {
         given:
-        AutocadColorBookLoader loader = new AutocadColorBookLoader()
+        ColorPaletteLoader loader = new SimpleAutocadColorBookLoader()
         when:
         List<NamedColor> colors = loader.load(new File('src/test/resources/test.acb'))
         then:
