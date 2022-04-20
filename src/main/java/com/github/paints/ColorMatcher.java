@@ -1,3 +1,5 @@
+package com.github.paints;
+
 import org.apache.commons.lang3.tuple.Pair;
 
 import java.util.List;
@@ -5,7 +7,7 @@ import java.util.List;
 /**
  * Allows to find the closest matching colors.
  */
-interface ColorMatcher {
+public interface ColorMatcher {
 
     /**
      * Finds the closest matching colors for the specified color.

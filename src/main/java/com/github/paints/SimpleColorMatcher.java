@@ -1,3 +1,5 @@
+package com.github.paints;
+
 import org.apache.commons.lang3.tuple.Pair;
 
 import java.util.Comparator;
@@ -5,17 +7,17 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-class SimpleColorMatcher implements ColorMatcher {
+public class SimpleColorMatcher implements ColorMatcher {
 
     private final ColorDistanceMeasurer distanceMeasurer;
     private final int samples;
 
-    SimpleColorMatcher(final ColorDistanceMeasurer distanceMeasurer) {
+    public SimpleColorMatcher(final ColorDistanceMeasurer distanceMeasurer) {
         this.distanceMeasurer = distanceMeasurer;
         this.samples = 3;
     }
 
-    SimpleColorMatcher(final ColorDistanceMeasurer distanceMeasurer, final int samples) {
+    public SimpleColorMatcher(final ColorDistanceMeasurer distanceMeasurer, final int samples) {
         Objects.requireNonNull(distanceMeasurer);
         this.distanceMeasurer = distanceMeasurer;
         this.samples = samples;

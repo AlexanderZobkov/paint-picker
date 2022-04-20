@@ -1,9 +1,11 @@
+package com.github.paints;
+
 import java.awt.Color;
 
 /**
  * Measures a distance between two colors.
  */
-interface ColorDistanceMeasurer {
+public interface ColorDistanceMeasurer {
 
     /**
      * Measures a distance between two specified colors.

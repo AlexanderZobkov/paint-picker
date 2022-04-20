@@ -1,10 +1,14 @@
+package com.github.paints;
+
+import org.apache.commons.lang3.builder.ToStringBuilder;
+
 import java.awt.*;
 import java.util.Objects;
 
 /**
  * An object that represents a color itself and its human-logical name.
  */
-class NamedColor {
+public class NamedColor {
 
     private final String name;
     private final Color color;
@@ -30,9 +34,9 @@ class NamedColor {
 
     @Override
     public String toString() {
-        return getClass().getName() + "{" +
-                "name='" + name + '\'' +
-                ", color=" + color +
-                '}';
+        return new ToStringBuilder(this).
+                append("name", name).
+                append("color", color).
+                toString();
     }
 }

@@ -1,3 +1,7 @@
+import com.github.paints.ColorDistanceMeasurer
+import com.github.paints.ColorMatcher
+import com.github.paints.NamedColor
+import com.github.paints.SimpleColorMatcher
 import org.apache.commons.lang3.tuple.Pair
 import spock.lang.Specification
 

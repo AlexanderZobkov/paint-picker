@@ -1,3 +1,6 @@
+import com.github.paints.ColorPaletteLoader
+import com.github.paints.NamedColor
+import com.github.paints.SimpleAutocadColorBookLoader
 import spock.lang.Specification
 
 class AutocadColorBookLoaderTest extends Specification {

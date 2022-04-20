@@ -1,3 +1,5 @@
+package com.github.paints;
+
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
@@ -20,7 +22,7 @@ import java.util.stream.Collectors;
  * It just finds all XML elements: 'colorEntry' and
  * uses sub-elements: 'colorName', 'RGB8 to construct a list of {@link NamedColor}.
  */
-class SimpleAutocadColorBookLoader implements ColorPaletteLoader {
+public class SimpleAutocadColorBookLoader implements ColorPaletteLoader {
 
     private final ObjectMapper mapper;
 
@@ -30,7 +32,7 @@ class SimpleAutocadColorBookLoader implements ColorPaletteLoader {
     }
 
     @Override
-    public List<NamedColor> load(File palette) throws IOException {
+    public List<NamedColor> load(final File palette) throws IOException {
         Objects.requireNonNull(palette);
         final ColorBook colorBook = mapper.readValue(palette, ColorBook.class);
         return colorBook.colorPage.stream()

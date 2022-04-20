@@ -3,7 +3,7 @@ plugins {
     id 'ru.vyarus.quality' version '4.6.0'
 }
 
-group 'color'
+group 'com.github.paints'
 version '1.0-SNAPSHOT'
 
 repositories {

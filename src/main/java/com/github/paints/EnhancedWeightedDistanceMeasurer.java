@@ -1,13 +1,15 @@
+package com.github.paints;
+
 import java.awt.*;
 import java.util.Objects;
 
 /**
  * Calculates a distance between two colors based on the math described at https://www.compuphase.com/cmetric.htm.
  */
-class EnhancedWeightedDistanceMeasurer implements ColorDistanceMeasurer {
+public class EnhancedWeightedDistanceMeasurer implements ColorDistanceMeasurer {
 
     @Override
-    public float measure(Color color1, Color color2) {
+    public float measure(final Color color1, final Color color2) {
         Objects.requireNonNull(color1);
         Objects.requireNonNull(color2);
         int rmean = (color1.getRed() + color2.getRed()) / 2;
