@@ -7,9 +7,9 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 
-import java.awt.*;
-import java.io.File;
+import java.awt.Color;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Collection;
 import java.util.List;
 import java.util.Objects;
@@ -32,7 +32,7 @@ public class SimpleAutocadColorBookLoader implements ColorPaletteLoader {
     }
 
     @Override
-    public List<NamedColor> load(final File palette) throws IOException {
+    public List<NamedColor> load(final InputStream palette) throws IOException {
         Objects.requireNonNull(palette);
         final ColorBook colorBook = mapper.readValue(palette, ColorBook.class);
         return colorBook.colorPage.stream()

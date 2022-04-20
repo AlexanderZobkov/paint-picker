@@ -10,7 +10,7 @@ class AutocadColorBookLoaderTest extends Specification {
         given:
         ColorPaletteLoader loader = new SimpleAutocadColorBookLoader()
         when:
-        List<NamedColor> colors = loader.load(new File('src/test/resources/test.acb'))
+        List<NamedColor> colors = loader.load(new FileInputStream('src/test/resources/test.acb'))
         then:
         colors.size() == 3
         colors.get(0).name == 'Color 1'
