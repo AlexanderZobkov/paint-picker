@@ -16,6 +16,8 @@ import java.util.stream.Collectors;
 @Controller
 public class PaletteController {
 
+    private final ColorPaletteLoader loader = new SimpleAutocadColorBookLoader();
+
     @GetMapping("/palette")
     public String palette(@RequestParam(name = "name", required = false) String name, Model model) throws IOException {
         if (name == null) {
@@ -26,11 +28,15 @@ public class PaletteController {
             model.addAttribute("palettes", foundPalettes);
             return "palette-list";
         } else {
-            InputStream paletteStream = SimpleAutocadColorBookLoader.class.getClassLoader().getResourceAsStream(name);
-            List<NamedColor> colorsFromPalette = new SimpleAutocadColorBookLoader().load(paletteStream);
-            model.addAttribute("colorsFromPalette", colorsFromPalette);
+            List<NamedColor> colorsFromPalette = loadPaletteFromClasspath(name);
+            model.addAttribute("colorsFromPaletteList", colorsFromPalette);
             return "palette";
         }
+    }
+
+    private List<NamedColor> loadPaletteFromClasspath(String resource) throws IOException {
+        InputStream paletteStream = loader.getClass().getClassLoader().getResourceAsStream(resource);
+        return loader.load(paletteStream);
     }
 
 }
