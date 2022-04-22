@@ -10,13 +10,10 @@ public class ClosestMatchColors {
      private NamedColor baseColor;
      private List<Pair<NamedColor,Float>> similarColorsWithDistance;
 
-     public ClosestMatchColors(NamedColor baseColor, List<Pair<NamedColor, Float>> similarColorsWithDistance) {
-          Objects.requireNonNull(baseColor);
-          this.baseColor = baseColor;
-          Objects.requireNonNull(similarColorsWithDistance);
-          this.similarColorsWithDistance = similarColorsWithDistance;
+     public ClosestMatchColors(final NamedColor baseColor, final List<Pair<NamedColor, Float>> similarColorsWithDistance) {
+          this.baseColor = Objects.requireNonNull(baseColor);
+          this.similarColorsWithDistance = Objects.requireNonNull(similarColorsWithDistance);
      }
-
 
      public NamedColor getBaseColor() {
           return baseColor;

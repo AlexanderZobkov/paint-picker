@@ -13,13 +13,11 @@ public class SimpleColorMatcher implements ColorMatcher {
     private final int samples;
 
     public SimpleColorMatcher(final ColorDistanceMeasurer distanceMeasurer) {
-        this.distanceMeasurer = distanceMeasurer;
-        this.samples = 3;
+        this(distanceMeasurer, 3);
     }
 
     public SimpleColorMatcher(final ColorDistanceMeasurer distanceMeasurer, final int samples) {
-        Objects.requireNonNull(distanceMeasurer);
-        this.distanceMeasurer = distanceMeasurer;
+        this.distanceMeasurer = Objects.requireNonNull(distanceMeasurer);
         this.samples = samples;
     }
 
