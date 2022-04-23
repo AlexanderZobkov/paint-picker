@@ -1,5 +1,6 @@
 package com.github.paints;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.stereotype.Controller;
@@ -16,7 +17,8 @@ import java.util.stream.Collectors;
 @Controller
 public class PaletteController {
 
-    private final ColorPaletteLoader loader = new SimpleAutocadColorBookLoader();
+    @Autowired
+    private ColorPaletteLoader loader;
 
     @GetMapping("/palette")
     public String palette(@RequestParam(name = "name", required = false) String name, Model model) throws IOException {

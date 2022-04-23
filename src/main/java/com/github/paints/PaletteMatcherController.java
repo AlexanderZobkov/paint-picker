@@ -2,6 +2,7 @@ package com.github.paints;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.tuple.Pair;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,8 +17,11 @@ import java.util.stream.Collectors;
 @Controller
 public class PaletteMatcherController {
 
-    private final ColorMatcher matcher = new SimpleColorMatcher(new EnhancedWeightedDistanceMeasurer());
-    private final ColorPaletteLoader loader = new SimpleAutocadColorBookLoader();
+    @Autowired
+    private ColorMatcher matcher;
+
+    @Autowired
+    private ColorPaletteLoader loader;
 
     @GetMapping("/palette-match")
     public String palette(@RequestParam(name = "name1", defaultValue = "Dulux.acb") String name1,
