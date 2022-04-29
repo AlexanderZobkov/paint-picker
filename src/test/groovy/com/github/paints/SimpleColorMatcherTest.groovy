@@ -1,3 +1,5 @@
+package com.github.paints
+
 import com.github.paints.ColorDistanceMeasurer
 import com.github.paints.ColorMatcher
 import com.github.paints.NamedColor
