@@ -22,7 +22,7 @@ html() {
     }
     body() {
         div() {
-            colorsFromPalette.each { NamedColor color ->
+            colorsFromThePalette.each { NamedColor color ->
                 div( class: 'row') {
                     String hex = Integer.toHexString(color.color.getRGB()).substring(2)
                     div (class:'swatch') {
