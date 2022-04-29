@@ -1,6 +1,6 @@
 package com.github.paints;
 
-import java.awt.Color;
+import java.awt.*;
 
 /**
  * Measures a distance between two colors.

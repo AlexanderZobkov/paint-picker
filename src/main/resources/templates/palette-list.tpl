@@ -1,11 +1,11 @@
 html() {
     body() {
-            palettes.each { String p ->
-                div {
-                    a(href: "/palettes/${p}") {
-                        yield p
-                    }
+        palettes.each { String p ->
+            div {
+                a(href: "/palettes/${p}") {
+                    yield p
                 }
             }
+        }
     }
 }

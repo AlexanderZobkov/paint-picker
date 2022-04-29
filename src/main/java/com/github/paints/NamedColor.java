@@ -2,7 +2,7 @@ package com.github.paints;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
-import java.awt.Color;
+import java.awt.*;
 import java.util.Objects;
 
 /**
@@ -27,7 +27,7 @@ public class NamedColor {
     /**
      * The constructor.
      *
-     * @param name  Human-logical name for the {@link color}. Must not be null.
+     * @param name     Human-logical name for the {@link color}. Must not be null.
      * @param hexColor The color as hex value. Must not be null and must be understood by {@link Color#decode(String)}.
      */
     public NamedColor(final String name, final String hexColor) {

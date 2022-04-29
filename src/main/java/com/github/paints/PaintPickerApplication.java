@@ -14,12 +14,12 @@ public class PaintPickerApplication implements WebMvcConfigurer {
     }
 
     @Bean
-    ColorPaletteLoader paletteLoader(){
+    ColorPaletteLoader paletteLoader() {
         return new SimpleAutocadColorBookLoader();
     }
 
     @Bean
-    ColorMatcher colorMatcher(){
+    ColorMatcher colorMatcher() {
         return new SimpleColorMatcher(new EnhancedWeightedDistanceMeasurer());
     }
 

@@ -7,7 +7,7 @@ import java.awt.*;
 
 /**
  * Converts from String to a {@link NamedColor}.
- *
+ * <p>
  * A string is a pair of a color visual-human name and a hex value representing that color separated with a ':'.
  */
 public class StringToNamedColorConverter implements Converter<String, NamedColor> {

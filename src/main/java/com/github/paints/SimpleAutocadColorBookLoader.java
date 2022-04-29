@@ -7,7 +7,7 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 
-import java.awt.Color;
+import java.awt.*;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Collection;
@@ -26,7 +26,7 @@ public class SimpleAutocadColorBookLoader implements ColorPaletteLoader {
 
     private final ObjectMapper mapper;
 
-    public SimpleAutocadColorBookLoader(){
+    public SimpleAutocadColorBookLoader() {
         mapper = new XmlMapper();
         mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
     }

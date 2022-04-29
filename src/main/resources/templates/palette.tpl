@@ -23,10 +23,10 @@ html() {
     body() {
         div() {
             colorsFromThePalette.each { NamedColor color ->
-                div( class: 'row') {
+                div(class: 'row') {
                     String hex = Integer.toHexString(color.color.getRGB()).substring(2)
-                    div (class:'swatch') {
-                        div(class:'swatch', style:"background-color: #${hex};", ' ')
+                    div(class: 'swatch') {
+                        div(class: 'swatch', style: "background-color: #${hex};", ' ')
                         div {
                             yield "${color.name}"
                             if (info) {

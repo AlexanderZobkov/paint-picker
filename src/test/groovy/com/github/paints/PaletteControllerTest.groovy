@@ -21,7 +21,7 @@ class PaletteControllerTest {
     MockMvc mockMvc
 
     @Test
-    void listAvailablePalettes(){
+    void listAvailablePalettes() {
         MvcResult result = mockMvc.perform(get("/palettes"))
                 .andExpect(status().isOk())
                 .andReturn()
@@ -33,7 +33,7 @@ class PaletteControllerTest {
     }
 
     @Test
-    void viewColorsInThePalette(){
+    void viewColorsInThePalette() {
         MvcResult result = mockMvc.perform(get("/palettes/Dulux.acb"))
                 .andExpect(status().isOk())
                 .andReturn()
@@ -45,14 +45,14 @@ class PaletteControllerTest {
 
     @Test
     @Disabled('Error handling is not property implemented')
-    void unknownPalette(){
+    void unknownPalette() {
         mockMvc.perform(get("/palettes/unknown.acb"))
                 .andExpect(status().isBadRequest())
                 .andReturn()
     }
 
     @Test
-    void searchColors(){
+    void searchColors() {
         MvcResult result = mockMvc.perform(get("/palettes/Dulux.acb/search/colors?" +
                 "named-color=color 1:AABBCC&named-color=color 2:BBCCAA&named-color=color 3:CCBBAA"))
                 .andExpect(status().isOk())
@@ -64,7 +64,7 @@ class PaletteControllerTest {
     }
 
     @Test
-    void searchPalette(){
+    void searchPalette() {
         MvcResult result = mockMvc.perform(get("/palettes/Dulux.acb/search/palette/Little-Greeny.acb"))
                 .andExpect(status().isOk())
                 .andReturn()
