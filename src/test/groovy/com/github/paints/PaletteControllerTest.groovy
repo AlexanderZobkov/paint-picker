@@ -1,7 +1,6 @@
 package com.github.paints
 
 import groovy.xml.XmlParser
-import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc
@@ -44,11 +43,9 @@ class PaletteControllerTest {
     }
 
     @Test
-    @Disabled('Error handling is not property implemented')
     void unknownPalette() {
         mockMvc.perform(get("/palettes/unknown.acb"))
                 .andExpect(status().isBadRequest())
-                .andReturn()
     }
 
     @Test
@@ -61,6 +58,19 @@ class PaletteControllerTest {
         Node rootNode = new XmlParser().parseText(responseBody)
         NodeList colors = rootNode.body.div.div
         assertTrue(colors.size() > 0)
+    }
+
+    @Test
+    void searchColorsButColorsAreNotSpecified() {
+        mockMvc.perform(get("/palettes/Dulux.acb/search/colors"))
+                .andExpect(status().isBadRequest())
+    }
+
+    @Test
+    void searchColorsInUnknownPalette() {
+        mockMvc.perform(get("/palettes/unknown.acb/search/colors?" +
+                "named-color=color 1:AABBCC&named-color=color 2:BBCCAA&named-color=color 3:CCBBAA"))
+                .andExpect(status().isBadRequest())
     }
 
     @Test

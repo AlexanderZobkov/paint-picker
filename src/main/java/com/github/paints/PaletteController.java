@@ -9,12 +9,15 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.server.ResponseStatusException;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
+
+import static org.springframework.http.HttpStatus.BAD_REQUEST;
 
 @Controller
 public class PaletteController {
@@ -48,8 +51,7 @@ public class PaletteController {
      */
     @GetMapping("/palettes/{name}")
     public String showColors(@PathVariable(name = "name") String palette, Model model) throws IOException {
-        InputStream paletteStream = loader.getClass().getClassLoader().getResourceAsStream(palette);
-        List<NamedColor> colorsFromPalette = loader.load(paletteStream);
+        List<NamedColor> colorsFromPalette = loadPaletteFromClasspath(palette);
         model.addAttribute("colorsFromThePalette", colorsFromPalette);
         return "palette";
     }
@@ -96,8 +98,11 @@ public class PaletteController {
         return "palette-match";
     }
 
-    private List<NamedColor> loadPaletteFromClasspath(String resource) throws IOException {
-        InputStream paletteStream = loader.getClass().getClassLoader().getResourceAsStream(resource);
+    private List<NamedColor> loadPaletteFromClasspath(String palette) throws IOException {
+        InputStream paletteStream = loader.getClass().getClassLoader().getResourceAsStream(palette);
+        if (paletteStream == null) {
+          throw new ResponseStatusException(BAD_REQUEST, "The specified palette '" + palette + "' not found");
+        }
         return loader.load(paletteStream);
     }
 
