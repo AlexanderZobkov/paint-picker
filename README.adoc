@@ -6,11 +6,19 @@ This repository could help in finding color code/name in palettes of paint compa
 
 [IMPORTANT]
 --
-Colours and images shown on your display may not represent the true colour. Always use paint testers/samples before commiting whole amount paints.
+Colors and images shown on your display may not represent the true color. Always use paint testers/samples before committing whole amount paints.
 --
 
 ## Usage
 
-See
-https://github.com/AlexanderZobkov/paint-picker/blob/master/src/main/groovy/PalettesMatcher.groovy[usage example],
-https://alexanderzobkov.github.io/paint-picker/little-greeny-vs-tikkurila.html[result example].
+. Compile and run:
++
+```shell
+./gradlew clean bootRun
+```
+. Open browser with http://localhost:8090/palettes
+. https://github.com/AlexanderZobkov/paint-picker/blob/master/src/test/groovy/com/github/paints/PaletteControllerTest.groovy[See available operations]
+
+## Examples
+
+- https://alexanderzobkov.github.io/paint-picker/little-greeny-vs-tikkurila.html[Searching colors of one palette in colors of another palette]
