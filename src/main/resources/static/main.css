@@ -1,0 +1,18 @@
+div.swatch {
+    width: 150px; height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: table-cell;
+}
+div.row {
+    display: table-row;
+}
+div.spacer {
+    width: 50px; height: 150px;
+    display: table-cell;
+}
+span.swatch-text {
+    font-size: 12px;
+    color: grey;
+    text-transform: uppercase;
+}

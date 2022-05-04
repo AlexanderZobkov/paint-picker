@@ -2,23 +2,7 @@ import com.github.paints.NamedColor
 
 html() {
     head() {
-        style("""
-
-    div.swatch {
-        width: 150px; height: 150px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 23px;
-        display: table-cell;
-    }
-    div.row {
-        display: table-row;
-    }
-    div.spacer {
-        width: 50px; height: 150px;
-        display: table-cell;
-    }
-
-                """)
+        link(rel: 'stylesheet', href: '/main.css')
     }
     body() {
         div() {

@@ -1,32 +1,17 @@
 import com.github.paints.ClosestMatchColors
 import org.apache.commons.lang3.tuple.Pair
 
-Closure<List<Object>> reportSimilarityInfo = { Float distance ->
-    [
-            "${(100 * distance.floatValue() / 767f).trunc(2)}%",
-            distance.trunc(2),
-    ]
+Closure<String> calcSimilarityPercentage = { Float distance ->
+    "${100 - (100 * distance.floatValue() / 767f).trunc(2)}%"
+}
+
+Closure<String> calcSimilarityDistance = { Float distance ->
+    "${distance.trunc(2)}"
 }
 
 html() {
     head() {
-        style("""
-
-    div.swatch {
-        width: 150px; height: 150px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 23px;
-        display: table-cell;
-    }
-    div.row {
-        display: table-row;
-    }
-    div.spacer {
-        width: 50px; height: 150px;
-        display: table-cell;
-    }
-
-                """)
+        link(rel: 'stylesheet', href: '/main.css')
     }
     body() {
         div() {
@@ -47,7 +32,13 @@ html() {
                             div {
                                 yield "${closestColor.left.name}"
                                 br()
-                                yield "${reportSimilarityInfo.call(closestColor.right).join(' ')}"
+                                span(class: 'swatch-text') {
+                                    yield "${calcSimilarityPercentage.call(closestColor.right)} similar"
+                                }
+                                br()
+                                span(class: 'swatch-text') {
+                                    yield "${calcSimilarityDistance.call(closestColor.right)} distance"
+                                }
                             }
                         }
                     }
