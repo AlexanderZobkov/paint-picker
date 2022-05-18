@@ -1,5 +1,7 @@
 # Paint Picker
 
+image:https://github.com/AlexanderZobkov/paint-picker/workflows/Build/badge.svg?branch=master["Build Status", link="https://github.com/AlexanderZobkov/paint-picker/actions?query=workflow%3Build"]
+
 Home renovation is not easy and very time consuming activity. Choosing the right interior paint color is not easy as well and could be a real nightmare.
 This repository is not about choosing right paint colors or color schemas for your home. 
 This repository could help in finding color code/name in palettes of paint companies that matches the color you choose.
