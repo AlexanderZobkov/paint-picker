@@ -19,7 +19,7 @@ dependencies {
     implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.13.3'
     testImplementation('org.springframework.boot:spring-boot-starter-test')
     testImplementation('org.codehaus.groovy:groovy-xml:3.0.11')
-    testImplementation('org.spockframework:spock-core:2.2-M1-groovy-3.0')
+    testImplementation('org.spockframework:spock-core:2.2-M1-groovy-4.0')
 }
 
 test {
